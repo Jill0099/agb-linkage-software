@@ -18,8 +18,11 @@ provides the maintained code and citation instructions. The manuscript review
 repository remains private. All 66 local tests pass, with 91% core software coverage. A recovered real-data candidate
 contains 49,022 firm-years for 5,302 Chinese
 listed companies during 2007–2022. It is **not a publicly released dataset**:
-source-file verification, geocoding reference-system reconciliation, zero/mask
-interpretation and redistribution permissions remain release requirements.
+the user has selected a methods-and-aggregate-results publication with company-level
+records kept private. Fresh reproduction of 200 historical location-years now matches
+all point values and all three square means/counts at the saved precision. All sixteen annual source files match official CFATD file sizes and MD5 checksums.
+Coordinate reference and ecological zero interpretation remain limits on scientific
+use of the historical measures.
 
 The locations originate from office-address records. They have not been
 established as operating facilities. The saved AGB fields describe historical
@@ -29,7 +32,12 @@ corporate biodiversity impact or causal financial effects.
 
 See [methodology](docs/methodology.md), [provenance](docs/provenance.md),
 [validation](docs/validation.md), [source rights](docs/data_rights.md), and the
-[candidate field dictionary](docs/data_dictionary.csv).
+[candidate field dictionary](docs/data_dictionary.csv). Public companion reports
+include [aggregate table results](docs/stored_table_aggregate_summary.json),
+[fresh numerical replication](docs/fresh_replication_summary.json),
+[native raster metadata](docs/native_source_metadata.json),
+[complete annual source-file verification](docs/source_file_verification.json), and
+[hypothetical latitude-dependent window dimensions](docs/angular_window_geometry.csv).
 
 ## Install and run a synthetic example
 
@@ -106,14 +114,16 @@ raster, coordinate or ecological validation.
 ## Paper, archive and citation
 
 An unpublished English measurement-paper draft accompanies the private review work.
-It is excluded from the public software archive. It separates
-current file-audit findings from outstanding spatial validation. No SSRN posting,
+It is excluded from the fixed public software archive. It reports stored-table
+findings, fresh historical numerical reproduction and the remaining coordinate
+and ecological interpretation limits. No SSRN posting,
 dataset DOI or public real-data archive should be inferred from the draft.
 
 See [CITATION.md](CITATION.md) for the software citation and the distinct paper,
 derived-data and upstream citations. `CITATION.cff` supplies structured software
-metadata. A dataset version DOI will be added only when the corresponding
-rights-cleared data record is actually published.
+metadata. The current release publishes methods and aggregate evidence; the real panel
+remains private. A future data citation will be added only if a separately cleared
+data record is actually published.
 
 ## Licence
 

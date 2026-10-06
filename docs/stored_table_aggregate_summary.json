@@ -1,0 +1,660 @@
+{
+  "scope": "Stored-table audit; not raster, CRS, geocoding or rights validation",
+  "coordinates": {
+    "rows": 63312,
+    "firms": 5631,
+    "years": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "duplicate_key_rows": 0,
+    "rows_by_year": {
+      "2000": 1082,
+      "2001": 1160,
+      "2002": 1217,
+      "2003": 1288,
+      "2004": 1376,
+      "2005": 1370,
+      "2006": 1454,
+      "2007": 1565,
+      "2008": 1620,
+      "2009": 1769,
+      "2010": 2122,
+      "2011": 2357,
+      "2012": 2491,
+      "2013": 2529,
+      "2014": 2651,
+      "2015": 2841,
+      "2016": 3277,
+      "2017": 3664,
+      "2018": 3766,
+      "2019": 3972,
+      "2020": 4421,
+      "2021": 4843,
+      "2022": 5134,
+      "2023": 5343
+    }
+  },
+  "rebuilt": {
+    "rows": 49022,
+    "firms": 5302,
+    "years": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "duplicate_key_rows": 0,
+    "rows_by_year": {
+      "2007": 1565,
+      "2008": 1620,
+      "2009": 1769,
+      "2010": 2122,
+      "2011": 2357,
+      "2012": 2491,
+      "2013": 2529,
+      "2014": 2651,
+      "2015": 2841,
+      "2016": 3277,
+      "2017": 3664,
+      "2018": 3766,
+      "2019": 3972,
+      "2020": 4421,
+      "2021": 4843,
+      "2022": 5134
+    }
+  },
+  "agb": {
+    "agb_px": {
+      "nonmissing": 49022,
+      "nonfinite_nonmissing": 0,
+      "zero_rows": 43341,
+      "negative_rows": 0,
+      "above_1500_stored_units": 0,
+      "quantiles": {
+        "0.0": 0.0,
+        "0.25": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "0.9": 23.0,
+        "0.99": 110.0,
+        "1.0": 243.0
+      }
+    },
+    "agb_m500": {
+      "nonmissing": 49022,
+      "nonfinite_nonmissing": 0,
+      "zero_rows": 1418,
+      "negative_rows": 0,
+      "above_1500_stored_units": 0,
+      "quantiles": {
+        "0.0": 0.0,
+        "0.25": 0.822,
+        "0.5": 2.6253,
+        "0.75": 7.0269,
+        "0.9": 15.6841,
+        "0.99": 56.663949000000045,
+        "1.0": 161.8963
+      }
+    },
+    "agb_m1000": {
+      "nonmissing": 49022,
+      "nonfinite_nonmissing": 0,
+      "zero_rows": 278,
+      "negative_rows": 0,
+      "above_1500_stored_units": 0,
+      "quantiles": {
+        "0.0": 0.0,
+        "0.25": 1.2593,
+        "0.5": 3.28925,
+        "0.75": 8.189225,
+        "0.9": 17.63389,
+        "0.99": 54.904869,
+        "1.0": 173.2495
+      }
+    },
+    "agb_m5000": {
+      "nonmissing": 49022,
+      "nonfinite_nonmissing": 0,
+      "zero_rows": 15,
+      "negative_rows": 0,
+      "above_1500_stored_units": 0,
+      "quantiles": {
+        "0.0": 0.0,
+        "0.25": 2.248425,
+        "0.5": 5.8994,
+        "0.75": 14.897400000000001,
+        "0.9": 31.28714,
+        "0.99": 71.72417600000006,
+        "1.0": 190.2994
+      }
+    }
+  },
+  "coordinate_precision_levels": {
+    "门址": 36310,
+    "兴趣点": 9381,
+    "住宅区": 4265,
+    "门牌号": 2843,
+    "道路": 2779,
+    "乡镇": 1775,
+    "小巷": 1490,
+    "村庄": 1443,
+    "未知": 1166,
+    "区县": 927,
+    "公交地铁站点": 568,
+    "市": 341,
+    "道路交叉路口": 22,
+    "省": 2
+  },
+  "window_count_values": {
+    "agb_n500": [
+      1225.0
+    ],
+    "agb_n1000": [
+      4489.0
+    ],
+    "agb_n5000": [
+      112225.0
+    ]
+  },
+  "coordinate_lineage_join": {
+    "matched_keys": 49022,
+    "unmatched_keys": 0,
+    "changed_coordinate_rows_above_1e_minus_7_degrees": 0,
+    "maximum_lon_difference_degrees": 0.0,
+    "maximum_lat_difference_degrees": 0.0,
+    "interpretation": "Equal coordinates demonstrate lineage, not correct CRS."
+  },
+  "rebuilt_precision_levels": {
+    "门址": 28498,
+    "兴趣点": 7312,
+    "住宅区": 3361,
+    "道路": 2105,
+    "门牌号": 1821,
+    "乡镇": 1292,
+    "小巷": 1271,
+    "村庄": 1120,
+    "未知": 956,
+    "区县": 667,
+    "公交地铁站点": 429,
+    "市": 172,
+    "道路交叉路口": 18
+  },
+  "location_history": {
+    "firms_with_multiple_stored_coordinate_pairs": 3055,
+    "firms_with_one_stored_coordinate_pair": 2576,
+    "interpretation": "Stored coordinate changes are not independently verified relocations."
+  },
+  "stored_window_spearman_correlations": {
+    "agb_px": {
+      "agb_px": 1.0,
+      "agb_m500": 0.3845223704,
+      "agb_m1000": 0.3435329662,
+      "agb_m5000": 0.2493674131
+    },
+    "agb_m500": {
+      "agb_px": 0.3845223704,
+      "agb_m500": 1.0,
+      "agb_m1000": 0.9073189081,
+      "agb_m5000": 0.6365989803
+    },
+    "agb_m1000": {
+      "agb_px": 0.3435329662,
+      "agb_m500": 0.9073189081,
+      "agb_m1000": 1.0,
+      "agb_m5000": 0.7601476524
+    },
+    "agb_m5000": {
+      "agb_px": 0.2493674131,
+      "agb_m500": 0.6365989803,
+      "agb_m1000": 0.7601476524,
+      "agb_m5000": 1.0
+    }
+  },
+  "stored_window_rank_sensitivity": {
+    "agb_m500": {
+      "paired_finite_rows": 49022,
+      "absolute_rank_shift_above_10_percentile_points_rows": 16203,
+      "share": 0.33052507037656564,
+      "median_absolute_rank_shift_percentile_points": 6.417526824690956,
+      "spearman_with_m1000": 0.9073189080975254,
+      "interpretation": "Historical pixel squares; not verified physical-radius sensitivity."
+    },
+    "agb_m5000": {
+      "paired_finite_rows": 49022,
+      "absolute_rank_shift_above_10_percentile_points_rows": 25899,
+      "share": 0.5283138182856677,
+      "median_absolute_rank_shift_percentile_points": 10.850740483864385,
+      "spearman_with_m1000": 0.760147652355889,
+      "interpretation": "Historical pixel squares; not verified physical-radius sensitivity."
+    }
+  },
+  "within_year_stored_window_sensitivity": {
+    "2007": {
+      "agb_m500": {
+        "paired_finite_rows": 1565,
+        "absolute_rank_shift_above_10_percentile_points_rows": 666,
+        "share": 0.4255591054313099,
+        "median_absolute_rank_shift_percentile_points": 7.795527156549525,
+        "spearman_with_m1000": 0.8686245242541167
+      },
+      "agb_m5000": {
+        "paired_finite_rows": 1565,
+        "absolute_rank_shift_above_10_percentile_points_rows": 871,
+        "share": 0.5565495207667731,
+        "median_absolute_rank_shift_percentile_points": 11.884984025559103,
+        "spearman_with_m1000": 0.7214254093569679
+      }
+    },
+    "2008": {
+      "agb_m500": {
+        "paired_finite_rows": 1620,
+        "absolute_rank_shift_above_10_percentile_points_rows": 653,
+        "share": 0.4030864197530864,
+        "median_absolute_rank_shift_percentile_points": 7.59259259259259,
+        "spearman_with_m1000": 0.8662590889705846
+      },
+      "agb_m5000": {
+        "paired_finite_rows": 1620,
+        "absolute_rank_shift_above_10_percentile_points_rows": 909,
+        "share": 0.5611111111111111,
+        "median_absolute_rank_shift_percentile_points": 12.114197530864198,
+        "spearman_with_m1000": 0.7073232842899716
+      }
+    },
+    "2009": {
+      "agb_m500": {
+        "paired_finite_rows": 1769,
+        "absolute_rank_shift_above_10_percentile_points_rows": 700,
+        "share": 0.395703787450537,
+        "median_absolute_rank_shift_percentile_points": 7.292255511588475,
+        "spearman_with_m1000": 0.8730105238756586
+      },
+      "agb_m5000": {
+        "paired_finite_rows": 1769,
+        "absolute_rank_shift_above_10_percentile_points_rows": 985,
+        "share": 0.5568117580553985,
+        "median_absolute_rank_shift_percentile_points": 11.927642736009048,
+        "spearman_with_m1000": 0.6999807404178418
+      }
+    },
+    "2010": {
+      "agb_m500": {
+        "paired_finite_rows": 2122,
+        "absolute_rank_shift_above_10_percentile_points_rows": 799,
+        "share": 0.3765315739868049,
+        "median_absolute_rank_shift_percentile_points": 7.115928369462765,
+        "spearman_with_m1000": 0.8803843911399344
+      },
+      "agb_m5000": {
+        "paired_finite_rows": 2122,
+        "absolute_rank_shift_above_10_percentile_points_rows": 1142,
+        "share": 0.5381715362865221,
+        "median_absolute_rank_shift_percentile_points": 11.168708765315738,
+        "spearman_with_m1000": 0.7186448509626563
+      }
+    },
+    "2011": {
+      "agb_m500": {
+        "paired_finite_rows": 2357,
+        "absolute_rank_shift_above_10_percentile_points_rows": 889,
+        "share": 0.37717437420449723,
+        "median_absolute_rank_shift_percentile_points": 6.957997454391174,
+        "spearman_with_m1000": 0.8802605740527903
+      },
+      "agb_m5000": {
+        "paired_finite_rows": 2357,
+        "absolute_rank_shift_above_10_percentile_points_rows": 1251,
+        "share": 0.5307594399660586,
+        "median_absolute_rank_shift_percentile_points": 10.988544760288498,
+        "spearman_with_m1000": 0.7222545082510092
+      }
+    },
+    "2012": {
+      "agb_m500": {
+        "paired_finite_rows": 2491,
+        "absolute_rank_shift_above_10_percentile_points_rows": 942,
+        "share": 0.3781613809714974,
+        "median_absolute_rank_shift_percentile_points": 7.145724608590919,
+        "spearman_with_m1000": 0.8807999213429125
+      },
+      "agb_m5000": {
+        "paired_finite_rows": 2491,
+        "absolute_rank_shift_above_10_percentile_points_rows": 1354,
+        "share": 0.5435568044961863,
+        "median_absolute_rank_shift_percentile_points": 11.441188277800086,
+        "spearman_with_m1000": 0.7192624632379369
+      }
+    },
+    "2013": {
+      "agb_m500": {
+        "paired_finite_rows": 2529,
+        "absolute_rank_shift_above_10_percentile_points_rows": 962,
+        "share": 0.3803875049426651,
+        "median_absolute_rank_shift_percentile_points": 7.038355081059711,
+        "spearman_with_m1000": 0.8826929237323483
+      },
+      "agb_m5000": {
+        "paired_finite_rows": 2529,
+        "absolute_rank_shift_above_10_percentile_points_rows": 1380,
+        "share": 0.5456702253855279,
+        "median_absolute_rank_shift_percentile_points": 11.34835903519178,
+        "spearman_with_m1000": 0.7207797811928175
+      }
+    },
+    "2014": {
+      "agb_m500": {
+        "paired_finite_rows": 2651,
+        "absolute_rank_shift_above_10_percentile_points_rows": 1017,
+        "share": 0.3836288193134666,
+        "median_absolute_rank_shift_percentile_points": 7.129385137683897,
+        "spearman_with_m1000": 0.8805591304198049
+      },
+      "agb_m5000": {
+        "paired_finite_rows": 2651,
+        "absolute_rank_shift_above_10_percentile_points_rows": 1442,
+        "share": 0.5439456808751415,
+        "median_absolute_rank_shift_percentile_points": 11.354205960015085,
+        "spearman_with_m1000": 0.7281662573485599
+      }
+    },
+    "2015": {
+      "agb_m500": {
+        "paired_finite_rows": 2841,
+        "absolute_rank_shift_above_10_percentile_points_rows": 1063,
+        "share": 0.37416402675114396,
+        "median_absolute_rank_shift_percentile_points": 7.286166842661035,
+        "spearman_with_m1000": 0.8821374904482682
+      },
+      "agb_m5000": {
+        "paired_finite_rows": 2841,
+        "absolute_rank_shift_above_10_percentile_points_rows": 1560,
+        "share": 0.5491024287222809,
+        "median_absolute_rank_shift_percentile_points": 11.615628299894404,
+        "spearman_with_m1000": 0.7259573601290682
+      }
+    },
+    "2016": {
+      "agb_m500": {
+        "paired_finite_rows": 3277,
+        "absolute_rank_shift_above_10_percentile_points_rows": 1205,
+        "share": 0.36771437290204456,
+        "median_absolute_rank_shift_percentile_points": 7.1406774488861675,
+        "spearman_with_m1000": 0.8850012985595309
+      },
+      "agb_m5000": {
+        "paired_finite_rows": 3277,
+        "absolute_rank_shift_above_10_percentile_points_rows": 1813,
+        "share": 0.553249923710711,
+        "median_absolute_rank_shift_percentile_points": 11.657003356728712,
+        "spearman_with_m1000": 0.7193044834373034
+      }
+    },
+    "2017": {
+      "agb_m500": {
+        "paired_finite_rows": 3664,
+        "absolute_rank_shift_above_10_percentile_points_rows": 1329,
+        "share": 0.3627183406113537,
+        "median_absolute_rank_shift_percentile_points": 6.8163209606986905,
+        "spearman_with_m1000": 0.8937568029136045
+      },
+      "agb_m5000": {
+        "paired_finite_rows": 3664,
+        "absolute_rank_shift_above_10_percentile_points_rows": 2013,
+        "share": 0.5493995633187773,
+        "median_absolute_rank_shift_percentile_points": 11.537936681222707,
+        "spearman_with_m1000": 0.7274981168586577
+      }
+    },
+    "2018": {
+      "agb_m500": {
+        "paired_finite_rows": 3766,
+        "absolute_rank_shift_above_10_percentile_points_rows": 1327,
+        "share": 0.35236325013276687,
+        "median_absolute_rank_shift_percentile_points": 6.658258098778544,
+        "spearman_with_m1000": 0.8987748536762271
+      },
+      "agb_m5000": {
+        "paired_finite_rows": 3766,
+        "absolute_rank_shift_above_10_percentile_points_rows": 2079,
+        "share": 0.5520446096654275,
+        "median_absolute_rank_shift_percentile_points": 11.55071694105151,
+        "spearman_with_m1000": 0.7226454730418209
+      }
+    },
+    "2019": {
+      "agb_m500": {
+        "paired_finite_rows": 3972,
+        "absolute_rank_shift_above_10_percentile_points_rows": 1404,
+        "share": 0.35347432024169184,
+        "median_absolute_rank_shift_percentile_points": 6.942346424974819,
+        "spearman_with_m1000": 0.9002651563262295
+      },
+      "agb_m5000": {
+        "paired_finite_rows": 3972,
+        "absolute_rank_shift_above_10_percentile_points_rows": 2182,
+        "share": 0.5493454179254783,
+        "median_absolute_rank_shift_percentile_points": 11.430010070493458,
+        "spearman_with_m1000": 0.7265084300175138
+      }
+    },
+    "2020": {
+      "agb_m500": {
+        "paired_finite_rows": 4421,
+        "absolute_rank_shift_above_10_percentile_points_rows": 1581,
+        "share": 0.3576114001357159,
+        "median_absolute_rank_shift_percentile_points": 6.91020131192038,
+        "spearman_with_m1000": 0.8997704807939071
+      },
+      "agb_m5000": {
+        "paired_finite_rows": 4421,
+        "absolute_rank_shift_above_10_percentile_points_rows": 2429,
+        "share": 0.549423207419136,
+        "median_absolute_rank_shift_percentile_points": 11.603709567971043,
+        "spearman_with_m1000": 0.7215789214267407
+      }
+    },
+    "2021": {
+      "agb_m500": {
+        "paired_finite_rows": 4843,
+        "absolute_rank_shift_above_10_percentile_points_rows": 1698,
+        "share": 0.3506091265744373,
+        "median_absolute_rank_shift_percentile_points": 6.782985752632664,
+        "spearman_with_m1000": 0.901648775146207
+      },
+      "agb_m5000": {
+        "paired_finite_rows": 4843,
+        "absolute_rank_shift_above_10_percentile_points_rows": 2607,
+        "share": 0.5383027049349577,
+        "median_absolute_rank_shift_percentile_points": 11.294652075160027,
+        "spearman_with_m1000": 0.725136349824577
+      }
+    },
+    "2022": {
+      "agb_m500": {
+        "paired_finite_rows": 5134,
+        "absolute_rank_shift_above_10_percentile_points_rows": 1794,
+        "share": 0.3494351382937281,
+        "median_absolute_rank_shift_percentile_points": 6.544604596805606,
+        "spearman_with_m1000": 0.9038400591018101
+      },
+      "agb_m5000": {
+        "paired_finite_rows": 5134,
+        "absolute_rank_shift_above_10_percentile_points_rows": 2754,
+        "share": 0.5364238410596026,
+        "median_absolute_rank_shift_percentile_points": 11.121932216595251,
+        "spearman_with_m1000": 0.7280063046758096
+      }
+    }
+  },
+  "address_source": {
+    "rows": 63441,
+    "firms": 5633,
+    "years": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "duplicate_key_rows": 0,
+    "rows_by_year": {
+      "2000": 1088,
+      "2001": 1166,
+      "2002": 1223,
+      "2003": 1293,
+      "2004": 1379,
+      "2005": 1374,
+      "2006": 1458,
+      "2007": 1571,
+      "2008": 1625,
+      "2009": 1774,
+      "2010": 2129,
+      "2011": 2363,
+      "2012": 2494,
+      "2013": 2536,
+      "2014": 2652,
+      "2015": 2842,
+      "2016": 3281,
+      "2017": 3666,
+      "2018": 3767,
+      "2019": 3977,
+      "2020": 4427,
+      "2021": 4847,
+      "2022": 5147,
+      "2023": 5362
+    }
+  },
+  "legacy": {
+    "rows": 63312,
+    "firms": 5631,
+    "years": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "duplicate_key_rows": 0,
+    "rows_by_year": {
+      "2000": 1082,
+      "2001": 1160,
+      "2002": 1217,
+      "2003": 1288,
+      "2004": 1376,
+      "2005": 1370,
+      "2006": 1454,
+      "2007": 1565,
+      "2008": 1620,
+      "2009": 1769,
+      "2010": 2122,
+      "2011": 2357,
+      "2012": 2491,
+      "2013": 2529,
+      "2014": 2651,
+      "2015": 2841,
+      "2016": 3277,
+      "2017": 3664,
+      "2018": 3766,
+      "2019": 3972,
+      "2020": 4421,
+      "2021": 4843,
+      "2022": 5134,
+      "2023": 5343
+    },
+    "point_values": {
+      "nonmissing": 7126,
+      "nonfinite_nonmissing": 0,
+      "zero_rows": 0,
+      "negative_rows": 0,
+      "above_1500_stored_units": 0,
+      "quantiles": {
+        "0.0": 1.0,
+        "0.25": 31.0,
+        "0.5": 49.0,
+        "0.75": 74.0,
+        "0.9": 105.0,
+        "0.99": 171.75,
+        "1.0": 1281.0
+      }
+    }
+  },
+  "legacy_comparison": {
+    "comparable_nonmissing_point_rows": 5681,
+    "point_differences_above_0_001": 0,
+    "rebuilt_zero_with_legacy_missing": 43341
+  },
+  "release_scope": "Aggregate measurements and audit results only. No company-level rows, identifiers, addresses, coordinates or input paths are included."
+}

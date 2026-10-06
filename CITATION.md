@@ -12,6 +12,8 @@
 
 Suggested manuscript title is *Local Aboveground Biomass around Chinese Listed-Company Office Locations: A Geospatial Matching and Measurement Audit*. Current author information is Yueyang Wang, Cardiff University; ORCID and publication email have not been supplied. Confirm the final author list and title before public posting.
 
+The author has chosen to publish methods and aggregate findings while keeping real observations private. A real-panel dataset DOI is not required by the current scope. The released-observation instruction above applies only to a separately authorised future data release.
+
 ## Software citation
 
 Wang, Y. (2026). *agb-linkage: Chinese listed-company location and biomass linkage tools* (Version 0.1.0) [Software]. Zenodo. [10.5281/zenodo.23186348](https://doi.org/10.5281/zenodo.23186348).
@@ -35,24 +37,26 @@ BibLaTeX supports `@software`; a BibTeX style without that entry type can use `@
 
 The published source archive is frozen at original source commit `89c22458b2c4808ad6f96d70068f4b0aff7c0d46`. That commit identifies the archived source snapshot, rather than the current head of the separate public maintenance repository. Preparation-stage citation/status text is retained unchanged within the frozen files; the current citation above identifies the subsequently registered software record. Cite a newly archived version if later maintained code is used instead of this snapshot.
 
-## Candidate upstream citations — verify input identity first
+## Confirmed upstream inputs and citations
 
-CFATD is a researched candidate source, not yet a confirmed match to the recovered input files. Its published source paper is:
+Complete file sizes and MD5s identify all 16 annual research-panel inputs for 2007–2022 as CFATD Parts III–VI. Each input was unchanged during its read. This confirms those 16 files, not all 39 rasters in the restored collection. See the [source-file verification](docs/source_file_verification.json) and [provenance](docs/provenance.md).
 
-Cai, Y., et al. (2025). *Dynamics of China's forest carbon storage: the first 30 m annual aboveground biomass mapping from 1985 to 2023*. Earth System Science Data, 17, 6993–7018. [https://doi.org/10.5194/essd-17-6993-2025](https://essd.copernicus.org/articles/17/6993/2025/).
+Cite the source article separately from the data records:
 
-If actual inputs are confirmed as this product, cite the applicable archive parts using each record's creators, title, metadata publication date and exact DOI. The recovered 2007–2022 research panel would span Parts III–VI; a wider 2000–2023 rebuild would also use Part II. Part I should not be cited as an input merely because it is the first archive page.
+Cai, Y., et al. (2025). *Dynamics of China's forest carbon storage: the first 30 m annual aboveground biomass mapping from 1985 to 2023*. Earth System Science Data, 17, 6993–7018. [10.5194/essd-17-6993-2025](https://essd.copernicus.org/articles/17/6993/2025/).
 
-| Candidate part | Years | Actual data-record DOI |
-|---|---|---|
-| I | 1985–1993 | [10.5281/zenodo.12620984](https://zenodo.org/records/12620984) |
-| II | 1994–2001 | [10.5281/zenodo.12637101](https://zenodo.org/records/12637101) |
-| III | 2002–2008 | [10.5281/zenodo.12655492](https://zenodo.org/records/12655492) |
-| IV | 2009–2015 | [10.5281/zenodo.12658255](https://zenodo.org/records/12658255) |
-| V | 2016–2021 | [10.5281/zenodo.12742210](https://zenodo.org/records/12742210) |
-| VI | 2022–2023 | [10.5281/zenodo.12747329](https://zenodo.org/records/12747329) |
+The official dataset exports list these creators: Cai, Yaotong; Zhu, Peng; Xu, Xiaocong; Li, Xing; Zhang, Honghui; Nie, Sheng; Wang, Cheng; Wang, Jia; Shen, Qianhui; Li, Bingjie; Wu, Changjiang; Liu, Xiaoping; Chen, Yuhe. Cite the actual records below, preserving their titles, publication dates and creator metadata. Dataset authorship differs from the final article's author list.
 
-The archive API metadata currently gives July 2024 publication dates, whereas the source paper labels its dataset references 2025. Use the record metadata consistently rather than silently assigning the paper's year to the dataset. The final source-paper DOI above is distinct from the older discussion-preprint DOI still appearing in some archive descriptions. See [provenance](docs/provenance.md).
+| Confirmed record title | Panel years used | Record publication date | Exact data-record DOI |
+|---|---|---|---|
+| *CFATD: The First High-Spatiotemporal-Resolution Mapping of Forest Aboveground Biomass in China from 1985 to 2023 (Part Ⅲ: 2002-2008)* | 2007–2008 | 4 July 2024 | [10.5281/zenodo.12655492](https://zenodo.org/records/12655492) |
+| *CFATD: The First High-Spatiotemporal-Resolution Mapping of Forest Aboveground Biomass in China from 1985 to 2023 (Part Ⅳ: 2009-2015)* | 2009–2015 | 4 July 2024 | [10.5281/zenodo.12658255](https://zenodo.org/records/12658255) |
+| *CFATD: The First High-Spatiotemporal-Resolution Mapping of Forest Aboveground Biomass in China from 1985 to 2023 (Part Ⅴ: 2016-2021)* | 2016–2021 | 15 July 2024 | [10.5281/zenodo.12742210](https://zenodo.org/records/12742210) |
+| *CFATD: The First High-Spatiotemporal-Resolution Mapping of Forest Aboveground Biomass in China from 1985 to 2023 (Part Ⅵ: 2022-2023)* | 2022 | 16 July 2024 | [10.5281/zenodo.12747329](https://zenodo.org/records/12747329) |
+
+The archive metadata and official BibTeX exports give July 2024 publication dates, whereas the source paper labels its dataset references 2025. Use the data-record metadata consistently rather than assigning the paper's year to the dataset. The final source-paper DOI above is distinct from the older discussion-preprint DOI still appearing in some archive descriptions. Parts I and II are not inputs to the current 2007–2022 panel.
+
+These records list [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). Retain attribution and licence information and describe the company-location matching, square aggregation and zero-inclusion convention as project changes. Provider-documented forest density units are Mg/ha with native scale 1 and offset 0. File identity and numerical reproduction do not establish the historical coordinates' reference-system reconciliation or the ecological validity of zero/mask denominators.
 
 ## Populate identifiers during the release stage
 

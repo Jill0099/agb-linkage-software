@@ -2,6 +2,8 @@
 
 The software implements explicit geometry and validity policies. It does not establish a source's units, rights or ecological interpretation. The recovered company-year table is a historical artifact; a new extraction is not a scientifically validated replacement merely because the program completes.
 
+The current publication scope shares methods and aggregate audit results, with real company-year observations kept private by author choice. [Complete source-file verification](source_file_verification.json) identifies all 16 panel-year inputs as CFATD Parts III–VI; their provider-documented forest biomass-density values are in Mg/ha, with native scale 1 and offset 0. A fresh read-only regression check reproduces the preserved 200 cases across all three historical square specifications; it retains the original numeric coordinates and zeros, so its agreement is numerical rather than geographic/ecological validation.
+
 ## Observation and inputs
 
 An input row represents one identified location in one year, with x/y coordinates in a verified geographic or projected reference system. Configure the identifier, year and coordinate columns and the annual raster filename template. The supplied configurations leave the coordinate reference `unresolved`; execution requires an explicit supported CRS. GCJ-02 and BD-09 declarations are rejected. A change of label alone is not a coordinate conversion.
@@ -18,6 +20,8 @@ The pipeline selects the raster for the row's year and transforms supported inpu
 Both modes calculate an arithmetic mean over selected, policy-valid cells. The current software does not provide pixel-area or forest-cover weighting. Thus a metric circle alone does not make its mean a mass-consistent landscape biomass statistic. Choice of source, forest mask and denominator must precede that interpretation. See [provenance](provenance.md).
 
 For the recovered table, the stored squares contain 1,225, 4,489 and 112,225 cells. These are historical window sizes, not counts independently verified as valid ecological pixels.
+
+The [hypothetical geometry table](angular_window_geometry.csv) uses the actual angular cell step with invented centres at longitude 112° and latitudes 20°, 30°, 40° and 50°. WGS84 geodesic distances between opposite cell-footprint outer-edge midpoints give a 335-cell square east-west width ranging from 9,447.61 m at 20° to 6,472.74 m at 50°, while its north-south dimension stays about 10 km. These dimensions illustrate latitude-dependent square geometry; they are not real company locations, centre-to-centre cell spans or circular diameters.
 
 ## Validity, numeric zeros and scaling
 

@@ -2,23 +2,25 @@
 
 Updated 6 October 2026. Software version 0.1.0 is publicly archived on Zenodo under [10.5281/zenodo.23186348](https://doi.org/10.5281/zenodo.23186348), with concept DOI [10.5281/zenodo.23186347](https://doi.org/10.5281/zenodo.23186347). The maintained [software-only repository](https://github.com/Jill0099/agb-linkage-software) is public. The separate [paper-review repository](https://github.com/Jill0099/agb-linkage) remains private, with a draft review release. The manuscript remains unpublished, and no project real-data DOI or SSRN posting exists.
 
+The author has chosen to publish methods and aggregate findings while keeping real company-year observations private. A full-panel public dataset and dataset DOI are outside the current task; any future data release is a separately authorised extension.
+
 ## Research objects
 
 | Object | What it identifies | Intended persistent record |
 |---|---|---|
 | Measurement paper | Scientific argument, methods, validation and bounded findings | SSRN working paper after author review and completed factual validation; possible later journal publication |
 | Software | A fixed code/documentation version and synthetic demonstration | Published Zenodo version 0.1.0 software archive and a separate public maintenance repository |
-| Derived observations | The exact permitted, independently validated company-year panel or explicitly named subset | Separate Zenodo dataset record with its own files, licence and version DOI |
+| Real observations | Private company-year inputs and matching outputs underlying aggregate evidence | No project dataset record planned in the current scope; a separately authorised future release would need its own metadata and DOI |
 | Upstream inputs | The actual biomass source and company/location sources used | Their original source citations and applicable rights; new project records do not replace them |
 
 A software archive containing only code and synthetic observations must not be described as a DOI for the real matched dataset. If actual observations cannot be shared, say so in the paper and archive rather than assigning them a synthetic-data DOI.
 
 ## Dependency order
 
-1. Freeze the historical audit and complete source identity, CRS, units, mask and independent-extraction validation. Document any corrected variant separately.
-2. Resolve the exact field-level release and licences using [source rights](data_rights.md). Review authorship, funding, competing interests and the manuscript. The package may support a permissible code/documentation release before the real dataset is cleared.
+1. Preserve the completed methods/aggregate audit and [exact annual source verification](source_file_verification.json): all 16 research-panel files match CFATD Parts III–VI sizes and MD5s. Record actual encoding and fresh preserved-sample reproduction, with coordinate/mask interpretation stated as scientific limits. Independently corrected geographic/ecological variants are separate extensions.
+2. Review the chosen methods/aggregate file list using [source rights](data_rights.md), plus authorship, funding, competing interests and the manuscript. Real observations remain private; no row-level release is required.
 3. Prepare a release manifest, checksums, paper PDF, software citation, exact input provenance and final public file list. Exclude credentials, private paths and unapproved real inputs/outputs from every archive.
-4. For a cleared dataset, create a Zenodo draft and reserve its DOI when a reviewable upload is ready. Include that reserved identifier in draft files, labelling it as reserved until publication. Zenodo registers the DOI on publication. [DOI reservation](https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/)
+4. Use the existing software DOI for the archived software. No full-panel dataset draft is required. If real data are separately authorised for a future release, a reserved dataset DOI would remain unpublished until its actual record is published. [DOI reservation](https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/)
 5. Publish the appropriate permitted artifacts, verify the resulting landing pages and identifiers, then insert their real links in the paper and citation instructions. SSRN currently requires an English full-text PDF, author affiliations/emails and an AI disclosure in both abstract and PDF if AI is used. Its screening is not journal peer review and posting is not guaranteed. [SSRN submission requirements](https://www.elsevier.support/ssrn/answer/get-started)
 6. Check the published paper, repository and dataset metadata against the same frozen versions. Record their relationships and test the generated citations. Add a real paper citation to `preferred-citation` only after an accessible paper exists.
 

@@ -1,13 +1,13 @@
 field,type,definition,units,status
 stkcd,string,Chinese listed-company stock identifier preserving leading zeros,identifier,Stored candidate field; redistribution rights unresolved
-year,integer,Company-address and raster assignment year,calendar year,Candidate coverage 2007–2022
-lon,float,Stored geocoding longitude,degree,CRS not verified; unchanged from original Amap coordinate table
-lat,float,Stored geocoding latitude,degree,CRS not verified; unchanged from original Amap coordinate table
+year,integer,Company-address and raster assignment year,calendar year,Recovered panel coverage 2007–2022; real records remain private
+lon,float,Stored geocoding longitude,degree,Unchanged original Amap coordinate; provider GCJ-02 lineage unreconciled with WGS84 raster
+lat,float,Stored geocoding latitude,degree,Unchanged original Amap coordinate; provider GCJ-02 lineage unreconciled with WGS84 raster
 city,string,City label retained from coordinate input,text,Source lineage and redistribution rights unresolved
-agb_px,float,Value sampled at the stored location pixel,upstream raster units unverified,Numeric zeros retained; ecological meaning unresolved
-agb_m500,float,Mean in a historical 35 by 35 pixel square,upstream raster units unverified,Legacy 500m label; physical support not verified
-agb_m1000,float,Mean in a historical 67 by 67 pixel square,upstream raster units unverified,Legacy 1km label; physical support not verified
-agb_m5000,float,Mean in a historical 335 by 335 pixel square,upstream raster units unverified,Legacy 5km label; physical support not verified
-agb_n500,integer,Stored denominator count for historical 35 by 35 square,cells,Constant 1225; not independently established as valid-data count
-agb_n1000,integer,Stored denominator count for historical 67 by 67 square,cells,Constant 4489; not independently established as valid-data count
-agb_n5000,integer,Stored denominator count for historical 335 by 335 square,cells,Constant 112225; not independently established as valid-data count
+agb_px,float,Value sampled at the stored location pixel,Mg/ha (source-value units),Confirmed CFATD source; numeric zeros retained; geographic placement and ecological zero meaning unresolved
+agb_m500,float,Zero-inclusive mean in a historical 35 by 35 pixel square,Mg/ha (source-value units),Confirmed CFATD source; historical arithmetic index; ecological denominator and nominal metric/circular radius unvalidated
+agb_m1000,float,Zero-inclusive mean in a historical 67 by 67 pixel square,Mg/ha (source-value units),Confirmed CFATD source; historical arithmetic index; ecological denominator and nominal metric/circular radius unvalidated
+agb_m5000,float,Zero-inclusive mean in a historical 335 by 335 pixel square,Mg/ha (source-value units),Confirmed CFATD source; historical arithmetic index; ecological denominator and nominal metric/circular radius unvalidated
+agb_n500,integer,Stored denominator count for historical 35 by 35 square,cells,Constant 1225; zero-inclusive cell count reproduced; not an established ecological valid-data denominator
+agb_n1000,integer,Stored denominator count for historical 67 by 67 square,cells,Constant 4489; zero-inclusive cell count reproduced; not an established ecological valid-data denominator
+agb_n5000,integer,Stored denominator count for historical 335 by 335 square,cells,Constant 112225; zero-inclusive cell count reproduced; not an established ecological valid-data denominator

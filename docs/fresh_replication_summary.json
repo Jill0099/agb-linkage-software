@@ -1,0 +1,80 @@
+{
+  "checked_utc": "2026-10-06T11:28:16.667296+00:00",
+  "status": "historical_numerical_replication_passed",
+  "observation_scope": "200 historical validation firm-years across 2007\u20132022; raw identifiers and coordinates excluded",
+  "sample_selection": "Previously saved historical 200-point-year sample, not newly stratified ecological or geocoding validation",
+  "mode": "historical_numeric_coordinate_passthrough_unmasked_square",
+  "limitations": [
+    "No coordinate correction or reprojection",
+    "NoData mask ignored and all numeric zero pixels retained",
+    "No scale/offset applied to original digital numbers",
+    "Numerical replication does not validate ecological interpretation"
+  ],
+  "environment": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "rasterio": "1.4.3"
+  },
+  "tolerance": 0.001,
+  "sample_count": 200,
+  "year_counts": {
+    "2007": 4,
+    "2008": 10,
+    "2009": 9,
+    "2010": 7,
+    "2011": 11,
+    "2012": 10,
+    "2013": 11,
+    "2014": 9,
+    "2015": 10,
+    "2016": 9,
+    "2017": 18,
+    "2018": 19,
+    "2019": 15,
+    "2020": 23,
+    "2021": 21,
+    "2022": 14
+  },
+  "point_samples_exact": 200,
+  "square_windows": {
+    "500": {
+      "count_matches": 200,
+      "empty_windows": 0,
+      "zero_pixels": 216527,
+      "total_pixels": 245000,
+      "n_compared": 200,
+      "within_tolerance": 200,
+      "maximum_absolute_difference": 0.0,
+      "mean_absolute_difference": 0.0,
+      "zero_share_of_overlapping_sampled_window_pixels": 0.8837836734693878
+    },
+    "1000": {
+      "count_matches": 200,
+      "empty_windows": 0,
+      "zero_pixels": 787419,
+      "total_pixels": 897800,
+      "n_compared": 200,
+      "within_tolerance": 200,
+      "maximum_absolute_difference": 0.0,
+      "mean_absolute_difference": 0.0,
+      "zero_share_of_overlapping_sampled_window_pixels": 0.8770539095566942
+    },
+    "5000": {
+      "count_matches": 200,
+      "empty_windows": 0,
+      "zero_pixels": 18342131,
+      "total_pixels": 22445000,
+      "n_compared": 200,
+      "within_tolerance": 200,
+      "maximum_absolute_difference": 0.0,
+      "mean_absolute_difference": 0.0,
+      "zero_share_of_overlapping_sampled_window_pixels": 0.8172034306081533
+    }
+  },
+  "annual_native_fingerprints_match": true,
+  "source_file_md5_comparison": "All 16 research-panel annual files match official CFATD provider file sizes and MD5 checksums; no file changed during its complete read.",
+  "frozen_candidate_sha256": "e00cc7c1eff631d2963746a1df6def68432f2bff0b8525855c5db8bc21fb18f8",
+  "zero_pixel_note": "These counts pool overlapping sampled windows across different years; they are not a unique land-area sample or evidence of ecological absence. Native NoData masks identify zero cells as invalid under that mask.",
+  "comparison_precision": "Point values compared exactly; square means compared after the original four-decimal formatting. Zero discrepancy describes agreement at this serialization precision, not unrounded floating-point equality.",
+  "source_file_verification_report": "source_file_verification.json"
+}
