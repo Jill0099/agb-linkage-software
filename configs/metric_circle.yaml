@@ -1,0 +1,14 @@
+coordinate_crs: unresolved
+mode: metric_circle
+radii_m: [500, 1000, 5000]
+mask_policy: respect
+zero_policy: include
+id_column: stkcd
+year_column: year
+x_column: lon
+y_column: lat
+raster_template: AGB_{year}.tif
+source_name: unspecified
+source_version: unverified
+source_doi: unverified
+# Choose the zero-nodata policy only after inspecting source mask semantics.

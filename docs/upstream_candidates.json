@@ -1,0 +1,671 @@
+{
+  "status": "public_provider_metadata_not_confirmed_input_lineage",
+  "records": [
+    {
+      "record_id": 12620984,
+      "metadata_url": "https://zenodo.org/api/records/12620984",
+      "record_url": "https://zenodo.org/records/12620984",
+      "checked_date": "2026-10-06",
+      "identity_status": "candidate_not_matched_to_local_inputs",
+      "doi": "10.5281/zenodo.12620984",
+      "conceptdoi": "10.5281/zenodo.12620983",
+      "publication_date": "2024-07-02",
+      "title": "CFATD: The First High-Spatiotemporal-Resolution Mapping of Forest Aboveground Biomass in China from 1985 to 2023 (Part Ⅰ: 1985-1993)",
+      "version": null,
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "access_right": "open",
+      "creators": [
+        {
+          "name": "Cai, Yaotong",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Zhu, Peng",
+          "affiliation": "The University of Hong Kong"
+        },
+        {
+          "name": "Xu, Xiaocong",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Li, Xing",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Zhang, Honghui",
+          "affiliation": "Guangdong Guodi Planning Science Technology Co. Ltd"
+        },
+        {
+          "name": "Nie, Sheng",
+          "affiliation": "Chinese Academy of Sciences"
+        },
+        {
+          "name": "Wang, Cheng",
+          "affiliation": "Chinese Academy of Sciences"
+        },
+        {
+          "name": "Wang, Jia",
+          "affiliation": "Beijing Forestry University"
+        },
+        {
+          "name": "Shen, Qianhui",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Wu, Changjiang",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Li, Bingjie",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Liu, Xiaoping",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Chen, Yuhe",
+          "affiliation": "Sun Yat Sen University"
+        }
+      ],
+      "files": [
+        {
+          "filename": "AGB_1985.tif",
+          "bytes": 5641658508,
+          "checksum": "md5:2d0ec64e903bd9f663f42e41718af7c4",
+          "download_url": "https://zenodo.org/api/records/12620984/files/AGB_1985.tif/content"
+        },
+        {
+          "filename": "AGB_1986.tif",
+          "bytes": 5491560893,
+          "checksum": "md5:ea95db1b18138ba0aca1e511bcf0e579",
+          "download_url": "https://zenodo.org/api/records/12620984/files/AGB_1986.tif/content"
+        },
+        {
+          "filename": "AGB_1987.tif",
+          "bytes": 5389388837,
+          "checksum": "md5:967a2ffa1c1226d6693b7b02e0ae1539",
+          "download_url": "https://zenodo.org/api/records/12620984/files/AGB_1987.tif/content"
+        },
+        {
+          "filename": "AGB_1988.tif",
+          "bytes": 5338823954,
+          "checksum": "md5:e4ccca048ecd8661e3d64d25945022db",
+          "download_url": "https://zenodo.org/api/records/12620984/files/AGB_1988.tif/content"
+        },
+        {
+          "filename": "AGB_1989.tif",
+          "bytes": 5356376807,
+          "checksum": "md5:9cf76ffeeeba4f8fdc7fc0ac09081491",
+          "download_url": "https://zenodo.org/api/records/12620984/files/AGB_1989.tif/content"
+        },
+        {
+          "filename": "AGB_1990.tif",
+          "bytes": 5427985857,
+          "checksum": "md5:73f539f14c56bdca11599b464153ddf0",
+          "download_url": "https://zenodo.org/api/records/12620984/files/AGB_1990.tif/content"
+        },
+        {
+          "filename": "AGB_1991.tif",
+          "bytes": 5465113696,
+          "checksum": "md5:571a8bad18a4898c257ee21b31fd7eb3",
+          "download_url": "https://zenodo.org/api/records/12620984/files/AGB_1991.tif/content"
+        },
+        {
+          "filename": "AGB_1992.tif",
+          "bytes": 5501058227,
+          "checksum": "md5:d9baea40a752a42358eaa3d2f3f4c47e",
+          "download_url": "https://zenodo.org/api/records/12620984/files/AGB_1992.tif/content"
+        },
+        {
+          "filename": "AGB_1993.tif",
+          "bytes": 5553704827,
+          "checksum": "md5:3cab376a3d1720989318395767c72df8",
+          "download_url": "https://zenodo.org/api/records/12620984/files/AGB_1993.tif/content"
+        }
+      ]
+    },
+    {
+      "record_id": 12637101,
+      "metadata_url": "https://zenodo.org/api/records/12637101",
+      "record_url": "https://zenodo.org/records/12637101",
+      "checked_date": "2026-10-06",
+      "identity_status": "candidate_not_matched_to_local_inputs",
+      "doi": "10.5281/zenodo.12637101",
+      "conceptdoi": "10.5281/zenodo.12637100",
+      "publication_date": "2024-07-03",
+      "title": "CFATD: The First High-Spatiotemporal-Resolution Mapping of Forest Aboveground Biomass in China from 1985 to 2023 (Part Ⅱ: 1994-2001)",
+      "version": null,
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "access_right": "open",
+      "creators": [
+        {
+          "name": "Cai, Yaotong",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Zhu, Peng",
+          "affiliation": "The University of Hong Kong"
+        },
+        {
+          "name": "Xu, Xiaocong",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Li, Xing",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Zhang, Honghui",
+          "affiliation": "Guangdong Guodi Planning Science Technology Co. Ltd"
+        },
+        {
+          "name": "Nie, Sheng",
+          "affiliation": "Chinese Academy of Sciences"
+        },
+        {
+          "name": "Wang, Cheng",
+          "affiliation": "Chinese Academy of Sciences"
+        },
+        {
+          "name": "Wang, Jia",
+          "affiliation": "Beijing Forestry University"
+        },
+        {
+          "name": "Shen, Qianhui",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Li, Bingjie",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Wu, Changjiang",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Liu, Xiaoping",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Chen, Yuhe",
+          "affiliation": "Sun Yat Sen University"
+        }
+      ],
+      "files": [
+        {
+          "filename": "AGB_1994.tif",
+          "bytes": 5591389949,
+          "checksum": "md5:2d2e64d12dc7b5a1abcdf4c2d93affc1",
+          "download_url": "https://zenodo.org/api/records/12637101/files/AGB_1994.tif/content"
+        },
+        {
+          "filename": "AGB_1995.tif",
+          "bytes": 5636281897,
+          "checksum": "md5:a97640c8e9b270c20e8ceb317702615f",
+          "download_url": "https://zenodo.org/api/records/12637101/files/AGB_1995.tif/content"
+        },
+        {
+          "filename": "AGB_1996.tif",
+          "bytes": 5661239458,
+          "checksum": "md5:e38d611c6d91d00b48560bf5d1d8d1f3",
+          "download_url": "https://zenodo.org/api/records/12637101/files/AGB_1996.tif/content"
+        },
+        {
+          "filename": "AGB_1997.tif",
+          "bytes": 5665038705,
+          "checksum": "md5:71f16e1fbf56bbf72f78c5835cd9c4ba",
+          "download_url": "https://zenodo.org/api/records/12637101/files/AGB_1997.tif/content"
+        },
+        {
+          "filename": "AGB_1998.tif",
+          "bytes": 5677541124,
+          "checksum": "md5:5563656af1aa2adebb720496d850e647",
+          "download_url": "https://zenodo.org/api/records/12637101/files/AGB_1998.tif/content"
+        },
+        {
+          "filename": "AGB_1999.tif",
+          "bytes": 5703630531,
+          "checksum": "md5:81f78d0ecc17d512363de2d069f13633",
+          "download_url": "https://zenodo.org/api/records/12637101/files/AGB_1999.tif/content"
+        },
+        {
+          "filename": "AGB_2000.tif",
+          "bytes": 6330574741,
+          "checksum": "md5:6e43370da60b88d5ca168ac63da0f568",
+          "download_url": "https://zenodo.org/api/records/12637101/files/AGB_2000.tif/content"
+        },
+        {
+          "filename": "AGB_2001.tif",
+          "bytes": 6203627141,
+          "checksum": "md5:3f3b4b8404c159083dfb5144fc31e323",
+          "download_url": "https://zenodo.org/api/records/12637101/files/AGB_2001.tif/content"
+        }
+      ]
+    },
+    {
+      "record_id": 12655492,
+      "metadata_url": "https://zenodo.org/api/records/12655492",
+      "record_url": "https://zenodo.org/records/12655492",
+      "checked_date": "2026-10-06",
+      "identity_status": "candidate_not_matched_to_local_inputs",
+      "doi": "10.5281/zenodo.12655492",
+      "conceptdoi": "10.5281/zenodo.12655491",
+      "publication_date": "2024-07-04",
+      "title": "CFATD: The First High-Spatiotemporal-Resolution Mapping of Forest Aboveground Biomass in China from 1985 to 2023 (Part Ⅲ: 2002-2008)",
+      "version": null,
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "access_right": "open",
+      "creators": [
+        {
+          "name": "Cai, Yaotong",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Zhu, Peng",
+          "affiliation": "The University of Hong Kong"
+        },
+        {
+          "name": "Xu, Xiaocong",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Li, Xing",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Zhang, Honghui",
+          "affiliation": "Guangdong Guodi Planning Science Technology Co. Ltd"
+        },
+        {
+          "name": "Nie, Sheng",
+          "affiliation": "Chinese Academy of Sciences"
+        },
+        {
+          "name": "Wang, Cheng",
+          "affiliation": "Chinese Academy of Sciences"
+        },
+        {
+          "name": "Wang, Jia",
+          "affiliation": "Beijing Forestry University"
+        },
+        {
+          "name": "Shen, Qianhui",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Li, Bingjie",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Wu, Changjiang",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Liu, Xiaoping",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Chen, Yuhe",
+          "affiliation": "Sun Yat Sen University"
+        }
+      ],
+      "files": [
+        {
+          "filename": "AGB_2002.tif",
+          "bytes": 6195805301,
+          "checksum": "md5:fed444061050f55b48d9cd9c8e579fb3",
+          "download_url": "https://zenodo.org/api/records/12655492/files/AGB_2002.tif/content"
+        },
+        {
+          "filename": "AGB_2003.tif",
+          "bytes": 6216907741,
+          "checksum": "md5:f8e82d36f40234b64bb95a87da93bb52",
+          "download_url": "https://zenodo.org/api/records/12655492/files/AGB_2003.tif/content"
+        },
+        {
+          "filename": "AGB_2004.tif",
+          "bytes": 6282357948,
+          "checksum": "md5:611702957b28107db339d6217b247dd1",
+          "download_url": "https://zenodo.org/api/records/12655492/files/AGB_2004.tif/content"
+        },
+        {
+          "filename": "AGB_2005.tif",
+          "bytes": 6329010294,
+          "checksum": "md5:fb6ab847f7d239efc77d04660d9ad574",
+          "download_url": "https://zenodo.org/api/records/12655492/files/AGB_2005.tif/content"
+        },
+        {
+          "filename": "AGB_2006.tif",
+          "bytes": 6376622836,
+          "checksum": "md5:3a31f4cd461f74897126f97f9886626d",
+          "download_url": "https://zenodo.org/api/records/12655492/files/AGB_2006.tif/content"
+        },
+        {
+          "filename": "AGB_2007.tif",
+          "bytes": 6451117537,
+          "checksum": "md5:20ee678a0e7c445027222e7df380ac82",
+          "download_url": "https://zenodo.org/api/records/12655492/files/AGB_2007.tif/content"
+        },
+        {
+          "filename": "AGB_2008.tif",
+          "bytes": 6550378006,
+          "checksum": "md5:5cd2ca83b9f21e1ebb06110649c0fd1e",
+          "download_url": "https://zenodo.org/api/records/12655492/files/AGB_2008.tif/content"
+        }
+      ]
+    },
+    {
+      "record_id": 12658255,
+      "metadata_url": "https://zenodo.org/api/records/12658255",
+      "record_url": "https://zenodo.org/records/12658255",
+      "checked_date": "2026-10-06",
+      "identity_status": "candidate_not_matched_to_local_inputs",
+      "doi": "10.5281/zenodo.12658255",
+      "conceptdoi": "10.5281/zenodo.12658254",
+      "publication_date": "2024-07-04",
+      "title": "CFATD: The First High-Spatiotemporal-Resolution Mapping of Forest Aboveground Biomass in China from 1985 to 2023 (Part Ⅳ: 2009-2015)",
+      "version": null,
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "access_right": "open",
+      "creators": [
+        {
+          "name": "Cai, Yaotong",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Zhu, Peng",
+          "affiliation": "The University of Hong Kong"
+        },
+        {
+          "name": "Xu, Xiaocong",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Li, Xing",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Zhang, Honghui",
+          "affiliation": "Guangdong Guodi Planning Science Technology Co. Ltd"
+        },
+        {
+          "name": "Nie, Sheng",
+          "affiliation": "Chinese Academy of Sciences"
+        },
+        {
+          "name": "Wang, Cheng",
+          "affiliation": "Chinese Academy of Sciences"
+        },
+        {
+          "name": "Wang, Jia",
+          "affiliation": "Beijing Forestry University"
+        },
+        {
+          "name": "Shen, Qianhui",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Li, Bingjie",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Wu, Changjiang",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Liu, Xiaoping",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Chen, Yuhe",
+          "affiliation": "Sun Yat Sen University"
+        }
+      ],
+      "files": [
+        {
+          "filename": "AGB_2009.tif",
+          "bytes": 6575018793,
+          "checksum": "md5:ca8a6a1f0ea8bf63e683260bcdc632bd",
+          "download_url": "https://zenodo.org/api/records/12658255/files/AGB_2009.tif/content"
+        },
+        {
+          "filename": "AGB_2010.tif",
+          "bytes": 6640587167,
+          "checksum": "md5:cbef272422ef02da4ae9952f5e52b672",
+          "download_url": "https://zenodo.org/api/records/12658255/files/AGB_2010.tif/content"
+        },
+        {
+          "filename": "AGB_2011.tif",
+          "bytes": 6681391563,
+          "checksum": "md5:6df939734b95ac8439b2da05f37f929a",
+          "download_url": "https://zenodo.org/api/records/12658255/files/AGB_2011.tif/content"
+        },
+        {
+          "filename": "AGB_2012.tif",
+          "bytes": 6698819730,
+          "checksum": "md5:e05d70883f5d46c072feeb1418e6974a",
+          "download_url": "https://zenodo.org/api/records/12658255/files/AGB_2012.tif/content"
+        },
+        {
+          "filename": "AGB_2013.tif",
+          "bytes": 6856750591,
+          "checksum": "md5:c2693fc012a5241f6ae3acc59232a3ca",
+          "download_url": "https://zenodo.org/api/records/12658255/files/AGB_2013.tif/content"
+        },
+        {
+          "filename": "AGB_2014.tif",
+          "bytes": 6913799151,
+          "checksum": "md5:c5c05e312d65200985d6333d820f6ec3",
+          "download_url": "https://zenodo.org/api/records/12658255/files/AGB_2014.tif/content"
+        },
+        {
+          "filename": "AGB_2015.tif",
+          "bytes": 6975603108,
+          "checksum": "md5:44de5f547b8ae13be4366af0fa70fd5c",
+          "download_url": "https://zenodo.org/api/records/12658255/files/AGB_2015.tif/content"
+        }
+      ]
+    },
+    {
+      "record_id": 12742210,
+      "metadata_url": "https://zenodo.org/api/records/12742210",
+      "record_url": "https://zenodo.org/records/12742210",
+      "checked_date": "2026-10-06",
+      "identity_status": "candidate_not_matched_to_local_inputs",
+      "doi": "10.5281/zenodo.12742210",
+      "conceptdoi": "10.5281/zenodo.12742209",
+      "publication_date": "2024-07-15",
+      "title": "CFATD: The First High-Spatiotemporal-Resolution Mapping of Forest Aboveground Biomass in China from 1985 to 2023 (Part Ⅴ: 2016-2021)",
+      "version": null,
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "access_right": "open",
+      "creators": [
+        {
+          "name": "Cai, Yaotong",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Zhu, Peng",
+          "affiliation": "The University of Hong Kong"
+        },
+        {
+          "name": "Xu, Xiaocong",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Li, Xing",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Zhang, Honghui",
+          "affiliation": "Guangdong Guodi Planning Science Technology Co. Ltd"
+        },
+        {
+          "name": "Nie, Sheng",
+          "affiliation": "Chinese Academy of Sciences"
+        },
+        {
+          "name": "Wang, Cheng",
+          "affiliation": "Chinese Academy of Sciences"
+        },
+        {
+          "name": "Wang, Jia",
+          "affiliation": "Beijing Forestry University"
+        },
+        {
+          "name": "Shen, Qianhui",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Li, Bingjie",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Wu, Changjiang",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Liu, Xiaoping",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Chen, Yuhe",
+          "affiliation": "Sun Yat-sen University"
+        }
+      ],
+      "files": [
+        {
+          "filename": "AGB_2016.tif",
+          "bytes": 7047697692,
+          "checksum": "md5:a672d3708f269633c17e78a9a5694362",
+          "download_url": "https://zenodo.org/api/records/12742210/files/AGB_2016.tif/content"
+        },
+        {
+          "filename": "AGB_2017.tif",
+          "bytes": 7115801557,
+          "checksum": "md5:0fb14ea8df573a1253ba286bbad72b64",
+          "download_url": "https://zenodo.org/api/records/12742210/files/AGB_2017.tif/content"
+        },
+        {
+          "filename": "AGB_2018.tif",
+          "bytes": 7187039588,
+          "checksum": "md5:24939bc0123169a550b48c5e91519e51",
+          "download_url": "https://zenodo.org/api/records/12742210/files/AGB_2018.tif/content"
+        },
+        {
+          "filename": "AGB_2019.tif",
+          "bytes": 7267859031,
+          "checksum": "md5:a08b9c266f17638279896ba0539a2010",
+          "download_url": "https://zenodo.org/api/records/12742210/files/AGB_2019.tif/content"
+        },
+        {
+          "filename": "AGB_2020.tif",
+          "bytes": 7365933216,
+          "checksum": "md5:e2099ec4812d01f81d0cc0bcd90db1a0",
+          "download_url": "https://zenodo.org/api/records/12742210/files/AGB_2020.tif/content"
+        },
+        {
+          "filename": "AGB_2021.tif",
+          "bytes": 7489652042,
+          "checksum": "md5:0e50e56c8c9ab2981074b268fc46c4a1",
+          "download_url": "https://zenodo.org/api/records/12742210/files/AGB_2021.tif/content"
+        }
+      ]
+    },
+    {
+      "record_id": 12747329,
+      "metadata_url": "https://zenodo.org/api/records/12747329",
+      "record_url": "https://zenodo.org/records/12747329",
+      "checked_date": "2026-10-06",
+      "identity_status": "candidate_not_matched_to_local_inputs",
+      "doi": "10.5281/zenodo.12747329",
+      "conceptdoi": "10.5281/zenodo.12747328",
+      "publication_date": "2024-07-16",
+      "title": "CFATD: The First High-Spatiotemporal-Resolution Mapping of Forest Aboveground Biomass in China from 1985 to 2023 (Part Ⅵ: 2022-2023)",
+      "version": null,
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "access_right": "open",
+      "creators": [
+        {
+          "name": "Cai, Yaotong",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Zhu, Peng",
+          "affiliation": "The University of Hong Kong"
+        },
+        {
+          "name": "Xu, Xiaocong",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Li, Xing",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Zhang, Honghui",
+          "affiliation": "Guangdong Guodi Planning Science Technology Co. Ltd"
+        },
+        {
+          "name": "Nie, Sheng",
+          "affiliation": "Chinese Academy of Sciences"
+        },
+        {
+          "name": "Wang, Cheng",
+          "affiliation": "Chinese Academy of Sciences"
+        },
+        {
+          "name": "Wang, Jia",
+          "affiliation": "Beijing Forestry University"
+        },
+        {
+          "name": "Shen, Qianhui",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Li, Bingjie",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Wu, Changjiang",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Liu, Xiaoping",
+          "affiliation": "Sun Yat-Sen University"
+        },
+        {
+          "name": "Chen, Yuhe",
+          "affiliation": "Sun Yat-sen University"
+        }
+      ],
+      "files": [
+        {
+          "filename": "AGB_2022.tif",
+          "bytes": 7610477440,
+          "checksum": "md5:2a711ea3e12d47c0a4c9fd25cef85413",
+          "download_url": "https://zenodo.org/api/records/12747329/files/AGB_2022.tif/content"
+        },
+        {
+          "filename": "AGB_2023.tif",
+          "bytes": 7614321418,
+          "checksum": "md5:c1ef29ab9a813be354c851d0caf20433",
+          "download_url": "https://zenodo.org/api/records/12747329/files/AGB_2023.tif/content"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agb-linkage"
+version = "0.1.0"
+description = "Reproducible location-year linkage to third-party biomass rasters"
+requires-python = ">=3.12,<3.13"
+license = {file = "LICENSE"}
+dependencies = [
+    "numpy==2.3.3",
+    "rasterio==1.4.3",
+    "affine==2.4.0",
+    "pyproj==3.7.2",
+    "omegaconf==2.3.0",
+]
+
+[project.optional-dependencies]
+analysis = ["pandas==2.3.2", "matplotlib==3.10.6", "scipy==1.16.2", "openpyxl==3.1.5"]
+
+paper = ["reportlab==4.4.4", "pypdf==6.1.1", "mistune==3.1.4"]
+
+[project.scripts]
+agb-linkage = "agb_linkage.cli:main"
+
+[dependency-groups]
+dev = ["pytest==8.4.2", "pytest-cov==7.0.0", "ruff==0.13.3"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/agb_linkage"]
+
+[tool.hatch.build.targets.sdist]
+include = ["/src", "/tests", "/configs", "/examples", "/pyproject.toml", "/uv.lock", "/README.md", "/LICENSE"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--strict-markers"
+
+[tool.coverage.run]
+source = ["agb_linkage"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

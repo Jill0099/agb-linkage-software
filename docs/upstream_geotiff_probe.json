@@ -1,0 +1,130 @@
+{
+  "checked_date": "2026-10-06",
+  "identity_status": "public_candidate_not_matched_to_actual_input",
+  "file": "AGB_2007.tif",
+  "record_id": 12655492,
+  "url": "https://zenodo.org/api/records/12655492/files/AGB_2007.tif/content",
+  "method": "bounded HTTP range reads of TIFF metadata only; no raster-cell data read",
+  "tags": {
+    "width": [
+      228538
+    ],
+    "height": [
+      132983
+    ],
+    "bits_per_sample": [
+      16
+    ],
+    "compression": [
+      8
+    ],
+    "sample_format": [
+      1
+    ],
+    "model_pixel_scale": [
+      0.00026949458523585647,
+      0.00026949458523585647,
+      0.0
+    ],
+    "model_tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      73.50006671513084,
+      53.744227155245916,
+      0.0
+    ],
+    "geokey_directory": [
+      1,
+      1,
+      0,
+      7,
+      1024,
+      0,
+      1,
+      2,
+      1025,
+      0,
+      1,
+      1,
+      2048,
+      0,
+      1,
+      4326,
+      2049,
+      34737,
+      7,
+      0,
+      2054,
+      0,
+      1,
+      9102,
+      2057,
+      34736,
+      1,
+      1,
+      2059,
+      34736,
+      1,
+      0
+    ],
+    "geo_double_params": [
+      298.257223563,
+      6378137.0
+    ],
+    "geo_ascii_params": "WGS 84|",
+    "gdal_metadata": "<GDALMetadata>\n  <Item name=\"system-asset_size\">6925668910</Item>\n  <Item name=\"system-index\">AGB_2007</Item>\n  <Item name=\"system-time_start\">1167609600000</Item>\n  <Item name=\"name\" sample=\"0\">AGB</Item>\n  <Item name=\"DESCRIPTION\" sample=\"0\" role=\"description\">AGB</Item>\n</GDALMetadata>\n",
+    "gdal_nodata": "0"
+  },
+  "range_reads": [
+    {
+      "offset": 0,
+      "requested_bytes": 16,
+      "received_bytes": 16,
+      "content_range": "bytes 0-15/6451117537"
+    },
+    {
+      "offset": 4655599850,
+      "requested_bytes": 8,
+      "received_bytes": 8,
+      "content_range": "bytes 4655599850-4655599857/6451117537"
+    },
+    {
+      "offset": 4655599858,
+      "requested_bytes": 400,
+      "received_bytes": 400,
+      "content_range": "bytes 4655599858-4655600257/6451117537"
+    },
+    {
+      "offset": 4661172586,
+      "requested_bytes": 24,
+      "received_bytes": 24,
+      "content_range": "bytes 4661172586-4661172609/6451117537"
+    },
+    {
+      "offset": 4661172610,
+      "requested_bytes": 48,
+      "received_bytes": 48,
+      "content_range": "bytes 4661172610-4661172657/6451117537"
+    },
+    {
+      "offset": 4661172658,
+      "requested_bytes": 64,
+      "received_bytes": 64,
+      "content_range": "bytes 4661172658-4661172721/6451117537"
+    },
+    {
+      "offset": 4661172722,
+      "requested_bytes": 16,
+      "received_bytes": 16,
+      "content_range": "bytes 4661172722-4661172737/6451117537"
+    },
+    {
+      "offset": 4661172738,
+      "requested_bytes": 291,
+      "received_bytes": 291,
+      "content_range": "bytes 4661172738-4661173028/6451117537"
+    }
+  ],
+  "total_bytes_received": 867
+}

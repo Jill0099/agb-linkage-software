@@ -1,0 +1,34 @@
+# Original and derived restricted inputs, internal audits and work logs
+/private/
+/plan/
+/temp/
+/outputs/
+/release/
+
+# Local environments and credentials
+.venv/
+.env
+.env.*
+*.key
+*.pem
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+.DS_Store
+
+# Manuscript compilation intermediates
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz

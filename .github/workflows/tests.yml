@@ -1,0 +1,24 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  synthetic-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@bec219d24cd3e171d82865faccec33120bb574f4
+        with:
+          version: "0.8.22"
+          python-version: "3.12"
+      - run: uv sync --frozen --no-editable --extra analysis --extra paper
+      - run: uv run --frozen --no-editable --extra analysis --extra paper ruff check src tests scripts examples
+      - run: uv run --frozen --no-editable --extra analysis --extra paper pytest tests scripts/tests --cov=agb_linkage --cov-report=term-missing --cov-fail-under=80
+      - run: uv run --frozen --no-editable --extra analysis --extra paper python examples/demo.py --out-dir outputs/ci-demo

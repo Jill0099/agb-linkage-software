@@ -1,0 +1,15 @@
+# Declaration only: supply the actual verified coordinate CRS before execution.
+coordinate_crs: unresolved
+mode: legacy_pixel_square
+radii_m: [500, 1000, 5000]
+mask_policy: include_zero_nodata
+zero_policy: include
+id_column: stkcd
+year_column: year
+x_column: lon
+y_column: lat
+raster_template: AGB_{year}.tif
+source_name: unspecified
+source_version: unverified
+source_doi: unverified
+# Historical cell-count reproduction; not a claim about physical buffer radii.

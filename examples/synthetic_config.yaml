@@ -1,0 +1,8 @@
+coordinate_crs: EPSG:32650
+mode: metric_circle
+radii_m: [31, 70]
+mask_policy: include_zero_nodata
+zero_policy: include
+source_name: Synthetic five-by-five test raster
+source_version: "1"
+source_doi: none-synthetic

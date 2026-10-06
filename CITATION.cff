@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: >-
+  Please cite the archived software version used. Version 0.1.0 is publicly
+  available through its Zenodo software DOI. This DOI does not identify the
+  private real company-year dataset or the unpublished manuscript.
+  See CITATION.md for separate upstream-data attribution requirements.
+type: software
+title: "agb-linkage: Chinese listed-company location and biomass linkage tools"
+authors:
+  - family-names: Wang
+    given-names: Yueyang
+    affiliation: Cardiff University
+version: 0.1.0
+date-released: "2026-10-06"
+doi: 10.5281/zenodo.23186348
+url: https://zenodo.org/records/23186348
+repository-code: https://github.com/Jill0099/agb-linkage-software
+license: MIT
+abstract: >-
+  Reproducible tools and documentation for auditing and extracting
+  local aboveground biomass summaries around company locations.
+  The software licence does not grant rights to third-party rasters,
+  company-address exports, geocoding responses, or real matched data.
+keywords:
+  - aboveground biomass
+  - geospatial linkage
+  - Chinese listed companies
+  - reproducibility
