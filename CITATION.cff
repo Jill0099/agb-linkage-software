@@ -1,8 +1,9 @@
 cff-version: 1.2.0
 message: >-
   Please cite the archived software version used. Version 0.1.0 is publicly
-  available through its Zenodo software DOI. This DOI does not identify the
-  private real company-year dataset or the unpublished manuscript.
+  available through its Zenodo software DOI. Cite the companion SSRN working
+  paper for its methods and aggregate findings. The software DOI does not
+  identify the private real company-year dataset or the paper.
   See CITATION.md for separate upstream-data attribution requirements.
 type: software
 title: "agb-linkage: Chinese listed-company location and biomass linkage tools"
@@ -16,6 +17,19 @@ doi: 10.5281/zenodo.23186348
 url: https://zenodo.org/records/23186348
 repository-code: https://github.com/Jill0099/agb-linkage-software
 license: MIT
+preferred-citation:
+  type: unpublished
+  title: "Local Aboveground Biomass around Chinese Listed-Company Office Locations: A Geospatial Matching and Measurement Audit"
+  authors:
+    - family-names: Wang
+      given-names: Yueyang
+      affiliation: Cardiff University
+  year: 2026
+  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7570918
+  notes: >-
+    Working paper/preprint. SSRN Abstract ID 7570918; submission received
+    6 October 2026, screening pending. No paper DOI or journal acceptance
+    is claimed. Cite the separate software version DOI when using the code.
 abstract: >-
   Reproducible tools and documentation for auditing and extracting
   local aboveground biomass summaries around company locations.

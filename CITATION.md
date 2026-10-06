@@ -1,18 +1,34 @@
 # Citation and attribution instructions
 
-**Current status:** software version 0.1.0 was published on Zenodo on 6 October 2026 under [10.5281/zenodo.23186348](https://doi.org/10.5281/zenodo.23186348). The maintained [software-only GitHub repository](https://github.com/Jill0099/agb-linkage-software) is public. The separate [paper-review repository](https://github.com/Jill0099/agb-linkage) remains private, with a draft review release. The measurement-paper manuscript remains unpublished. No SSRN paper identifier, journal DOI or project derived-dataset DOI exists. No real company-year panel is publicly released.
+**Current status:** software version 0.1.0 was published on Zenodo on 6 October 2026 under [10.5281/zenodo.23186348](https://doi.org/10.5281/zenodo.23186348). The maintained [software-only GitHub repository](https://github.com/Jill0099/agb-linkage-software) is public. The separate [paper-review repository](https://github.com/Jill0099/agb-linkage) remains private, with historical draft review releases. SSRN received the author-reviewed measurement paper on 6 October 2026 as [Abstract ID 7570918](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7570918); its abstract page loads in the verified browser session, while screening remains pending. The paper uses CC BY 4.0. No paper DOI, journal acceptance or project derived-dataset DOI is claimed. No real company-year panel is publicly released.
 
 ## Cite what you actually use
 
 - **Software:** cite Yueyang Wang, the title in `CITATION.cff`, version 0.1.0, year 2026 and the registered [software version DOI](https://doi.org/10.5281/zenodo.23186348). The [public software repository](https://github.com/Jill0099/agb-linkage-software) is the maintenance location; the DOI identifies the fixed archive used in research.
-- **Method or measurement paper:** use the genuine SSRN working-paper citation after posting, clearly labelled as a working paper/preprint. After journal publication, use the appropriate published-paper metadata. Do not invent a paper DOI or label this local draft as a peer-reviewed article.
+- **Method or measurement paper:** use the genuine SSRN working-paper citation below, clearly labelled as a working paper/preprint whose screening remains pending. After journal publication, use the appropriate published-paper metadata. Do not invent a paper DOI or label this working paper as a peer-reviewed article.
 - **Released observations:** cite the derived dataset's exact version DOI and the linkage paper where relevant after an actual data release. A software or synthetic-example DOI does not identify the unreleased real panel.
 - **Upstream AGB:** cite the exact source dataset record(s) and associated paper used in the matching, retain required attribution/licence notices, and describe the linkage/aggregation changes. The matching authors did not create the source raster estimates.
 - **Company and coordinate inputs:** comply separately with source-agreement attribution and redistribution conditions. A source citation alone does not establish permission to share its data.
 
-Suggested manuscript title is *Local Aboveground Biomass around Chinese Listed-Company Office Locations: A Geospatial Matching and Measurement Audit*. Current author information is Yueyang Wang, Cardiff University; ORCID and publication email have not been supplied. Confirm the final author list and title before public posting.
+The submitted title is *Local Aboveground Biomass around Chinese Listed-Company Office Locations: A Geospatial Matching and Measurement Audit*. The listed author is Yueyang Wang, Cardiff University. The author confirmed PDF review, upload rights, no specific funding, no competing interests and CC BY 4.0; the contact email is recorded in the paper and private submission metadata.
 
 The author has chosen to publish methods and aggregate findings while keeping real observations private. A real-panel dataset DOI is not required by the current scope. The released-observation instruction above applies only to a separately authorised future data release.
+
+## Working-paper citation
+
+Wang, Y. (2026). *Local Aboveground Biomass around Chinese Listed-Company Office Locations: A Geospatial Matching and Measurement Audit*. Working paper/preprint, SSRN Abstract ID 7570918. [SSRN paper page](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7570918).
+
+SSRN confirmed submission receipt on 6 October 2026. Screening remains pending; the paper is not represented as journal peer reviewed or accepted. No paper DOI was displayed in the verified page. Use the actual SSRN URL and identifier rather than constructing a DOI from the abstract number.
+
+```bibtex
+@misc{wang2026agbmeasurement,
+  author = {Wang, Yueyang},
+  title  = {Local Aboveground Biomass around Chinese Listed-Company Office Locations: A Geospatial Matching and Measurement Audit},
+  year   = {2026},
+  url    = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7570918},
+  note   = {Working paper/preprint. SSRN Abstract ID 7570918; submission received 6 October 2026, screening pending.}
+}
+```
 
 ## Software citation
 

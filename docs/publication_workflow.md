@@ -1,6 +1,6 @@
 # Paper, GitHub, archive and citation workflow
 
-Updated 6 October 2026. Software version 0.1.0 is publicly archived on Zenodo under [10.5281/zenodo.23186348](https://doi.org/10.5281/zenodo.23186348), with concept DOI [10.5281/zenodo.23186347](https://doi.org/10.5281/zenodo.23186347). The maintained [software-only repository](https://github.com/Jill0099/agb-linkage-software) is public. The separate [paper-review repository](https://github.com/Jill0099/agb-linkage) remains private, with a draft review release. The manuscript remains unpublished, and no project real-data DOI or SSRN posting exists.
+Updated 6 October 2026. Software version 0.1.0 is publicly archived on Zenodo under [10.5281/zenodo.23186348](https://doi.org/10.5281/zenodo.23186348), with concept DOI [10.5281/zenodo.23186347](https://doi.org/10.5281/zenodo.23186347). The maintained [software-only repository](https://github.com/Jill0099/agb-linkage-software) is public. The separate [paper-review repository](https://github.com/Jill0099/agb-linkage) remains private. SSRN confirmed receipt of the author-reviewed measurement working paper as [Abstract ID 7570918](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7570918), with CC BY 4.0; the abstract page loads in the verified browser session and screening remains pending. No paper DOI, journal acceptance or project real-data DOI is claimed.
 
 The author has chosen to publish methods and aggregate findings while keeping real company-year observations private. A full-panel public dataset and dataset DOI are outside the current task; any future data release is a separately authorised extension.
 
@@ -8,7 +8,7 @@ The author has chosen to publish methods and aggregate findings while keeping re
 
 | Object | What it identifies | Intended persistent record |
 |---|---|---|
-| Measurement paper | Scientific argument, methods, validation and bounded findings | SSRN working paper after author review and completed factual validation; possible later journal publication |
+| Measurement paper | Scientific argument, methods, validation and bounded findings | SSRN working paper 7570918, submitted and awaiting screening; possible later journal publication |
 | Software | A fixed code/documentation version and synthetic demonstration | Published Zenodo version 0.1.0 software archive and a separate public maintenance repository |
 | Real observations | Private company-year inputs and matching outputs underlying aggregate evidence | No project dataset record planned in the current scope; a separately authorised future release would need its own metadata and DOI |
 | Upstream inputs | The actual biomass source and company/location sources used | Their original source citations and applicable rights; new project records do not replace them |

@@ -113,15 +113,18 @@ raster, coordinate or ecological validation.
 
 ## Paper, archive and citation
 
-An unpublished English measurement-paper draft accompanies the private review work.
-It is excluded from the fixed public software archive. It reports stored-table
-findings, fresh historical numerical reproduction and the remaining coordinate
-and ecological interpretation limits. No SSRN posting,
-dataset DOI or public real-data archive should be inferred from the draft.
+The English measurement working paper was submitted to SSRN on 6 October 2026:
+[SSRN Abstract ID 7570918](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7570918).
+SSRN has confirmed receipt; screening remains pending. Its abstract page is
+accessible in the verified browser session. The paper uses CC BY 4.0 and is
+excluded from the fixed software archive. It reports stored-table findings,
+fresh historical numerical reproduction and the remaining coordinate and
+ecological interpretation limits. No paper DOI, dataset DOI or public real-data
+archive is claimed.
 
 See [CITATION.md](CITATION.md) for the software citation and the distinct paper,
 derived-data and upstream citations. `CITATION.cff` supplies structured software
-metadata. The current release publishes methods and aggregate evidence; the real panel
+metadata and a working-paper preferred citation. The current release publishes methods and aggregate evidence; the real panel
 remains private. A future data citation will be added only if a separately cleared
 data record is actually published.
 
